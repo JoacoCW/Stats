@@ -82,19 +82,19 @@ body {
 }
 
 .stat1 {
-    margin-top: 55px;
+    margin-top: 2vw;
     margin-left: 2vw;
-    padding-right: 20px;
+    padding-right: 1vw;
     display: inline-block;
 }
 
 .stat2 {
-    padding: 0 100px;
+    padding: 0 3vw;
     display: inline-block;
 }
 
 .stat3 {
-    padding-left: 20px;
+    padding-left: 1vw;
     display: inline-block;
 }
 
@@ -102,4 +102,90 @@ body {
     position: absolute;
     bottom: 0px;
     left: 30%;
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        height: 109vh;
+        margin-top: -40vh;
+        width: 80vw;
+        left: 48%;
+        max-height: 900px;
+        border-radius: 5vw;
+    }
+    
+    .image {
+        padding-left: 0vw;
+        height: 1vh;
+        width: 80vw;
+        border-top-left-radius: 3vw;
+        border-bottom-right-radius: 0;
+    }
+
+    .overlay {
+        width: 80vw;
+        height: 1vh;
+        margin-left: 0vw;
+        border-top-left-radius: 3vw;
+        border-bottom-right-radius: 0;
+    }
+
+    .title {
+        text-align: center;
+        font-size: 5vw;
+        margin-top: 52vh;
+        padding-right: 15vw;
+        margin-left: 15vw;
+    }
+
+    .paragraph {
+        font-size: 4vw;
+        margin-right: 10vw;
+        margin-left: 10vw;
+        padding: 0;
+        text-align: center;
+    }
+
+    .stat1, .stat2, .stat3 {
+        display: block;
+        text-align: center;
+        padding-top: 2vw;
+    }
+
+    .data1 {
+        font-size: 5vw;
+    }
+
+    .data2 {
+        font-size: 5vw;
+    }
+
+    .data3 {
+        font-size: 5vw;
+    }
+
+    .section1 {
+        position: absolute;
+        font-size: 2.5vw;
+        margin-top: -2vh;
+        margin-left: 30vw;
+    }
+
+    .section2 {
+        position: absolute;
+        font-size: 2.5vw;
+        margin-top: -2vh;
+        margin-left: 30vw;
+    }
+
+    .section3 {
+        position: absolute;
+        font-size: 2.5vw;
+        margin-top: -2vh;
+        margin-left: 33vw;
+    }
+
+    .attribution {
+        display: none;
+    }
 }
